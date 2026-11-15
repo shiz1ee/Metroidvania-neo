@@ -12,7 +12,7 @@ width = 32
 height = 32
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cw3hl"]
-size = Vector2(32, 32)
+size = Vector2(32.183914, 30.879988)
 
 [node name="Playground" type="Node2D" unique_id=306057353]
 
@@ -26,5 +26,41 @@ texture = SubResource("GradientTexture2D_chxeh")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/StaticBody2D" unique_id=1164468589]
 shape = SubResource("RectangleShape2D_cw3hl")
 
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1249464131]
+position = Vector2(-0.2488938, 133.86575)
+rotation = -1.5730771
+scale = Vector2(9.39784, 1.375)
+texture = SubResource("GradientTexture2D_chxeh")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D2" unique_id=769619312]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D2/StaticBody2D" unique_id=1994769977]
+position = Vector2(-0.06228447, 0.72725976)
+shape = SubResource("RectangleShape2D_cw3hl")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1716306872]
+position = Vector2(93.00003, 176.99998)
+rotation = 3.1415927
+scale = Vector2(3.672007, 0.85227275)
+texture = SubResource("GradientTexture2D_chxeh")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D3" unique_id=1619871504]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D3/StaticBody2D" unique_id=966641304]
+position = Vector2(3.4701711e-06, -1.7896295e-05)
+shape = SubResource("RectangleShape2D_cw3hl")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1147360049]
+position = Vector2(272, 129)
+rotation = 3.1415927
+scale = Vector2(3.672007, 0.85227275)
+texture = SubResource("GradientTexture2D_chxeh")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2D4" unique_id=1485415089]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D4/StaticBody2D" unique_id=307198892]
+position = Vector2(3.4701711e-06, -1.7896295e-05)
+shape = SubResource("RectangleShape2D_cw3hl")
+
 [node name="Player" parent="." unique_id=1580970239 instance=ExtResource("1_rupst")]
-position = Vector2(239, 160)
+position = Vector2(361, 219)
